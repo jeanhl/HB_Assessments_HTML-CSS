@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>Skills-HTML-CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1> Job Application at UBERMelon </h1>
+
+    <p class='p1'> We at UBERMelon are constantly on the lookout for talented but cheap labor.
+        Due to the immense competition in the agricultural industry, an overzealous 
+        CEO and a large overhead, we are desperate for new hires. If you have 
+        been on the job hunt for a while now and are desperate for something on your 
+        resume, look no further! <br><br>
+        Fill in the application below and wait to hear 
+        from us! 
+    </p>
+    <p class="motto">    
+        UBERMelon: We deliver great melons!
+    </p>
+
+    <form>
+        <div>
+            <label for="firstname"> First Name: <input id="textinput" type="text" name="firstname"
+                placeholder="First Name"><br><br> </label>
+            <label for="lastname"> Last Name: <input id="textinput" style="
+                font-weight: bold;" type="text" name="lastname"
+                placeholder="Last Name"><br><br> </label>
+            <label for="salary"> Salary Requirement <input id="textinput" type="number" name="salary"
+                placeholder="Hint: Go low"><br><br> </label>
+        </div>        
+        <label for="poistion"> Applying for position: 
+            <select name="position">
+                <option value="softwarenegineer">Software Engineer</option>
+                <option value="qaengineer">QA Enginneer</option>
+                <option value="productmanager">Product Manager</option>
+                <option value="intern">Intern</option>
+            </select><br><br> </label>
+        <label for="submitbutton"> <input id="submitbutton" type="submit" value="Give me a job!"> </label>
+    </form>
+
+</body>
+</html>
